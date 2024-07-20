@@ -6,7 +6,7 @@ const Routecomponent: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Dashboard />} />
-      <Route path="/" element={<Playerdetails />} />
+      <Route path="/player-detail" element={<Playerdetails />} />
     </Routes>
   );
 };

@@ -1,0 +1,29 @@
+.body {
+  background-color: black;
+}
+
+.header {
+  position: relative;
+}
+.header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: 5px 5px 5px #c8e90d;
+}
+.header-img {
+  width: 100%;
+  height: auto;
+}
+.title-card {
+  font-size: 23px;
+  color: #c8e90d;
+}
+
+.text-card {
+  background-color: rgb(53, 52, 52);
+  color: bisque;
+}
