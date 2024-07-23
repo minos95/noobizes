@@ -1,12 +1,16 @@
 import { Route, Routes } from "react-router-dom";
-import Dashboard from "./Dashboard";
-import Playerdetails from "./Playerdetails";
+
+import MatchDetailRoute from "./MatchDetailRoute";
+import { Participantroute } from "./ParticipantRoute";
+import { Teamroute } from "./TeamRoute";
 
 const Routecomponent: React.FC = () => {
   return (
     <Routes>
-      <Route path="/" element={<Dashboard />} />
-      <Route path="/player-detail" element={<Playerdetails />} />
+      <Route path="/" element={<MatchDetailRoute />} />
+
+      <Route path="/participant" element={<Participantroute />} />
+      <Route path="/teams" element={<Teamroute />} />
     </Routes>
   );
 };

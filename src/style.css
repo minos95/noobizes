@@ -1,5 +1,6 @@
 .body {
   background-color: black;
+  height: 100vh;
 }
 
 .header {
@@ -26,4 +27,6 @@
 .text-card {
   background-color: rgb(53, 52, 52);
   color: bisque;
+}
+.table {
 }
